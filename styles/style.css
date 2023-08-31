@@ -14,25 +14,25 @@
         border: none;
     }
 
-    /* header styles */
+    /*--------------------------------------- header styles------------------------------ */
 
-    header{
+    header {
 
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 240px ;
+        padding: 0 240px;
         height: 850px;
-        background-color:     rgba(229, 84, 115, 0.10);
+        background-color: rgba(229, 84, 115, 0.10);
         margin-bottom: 200px;
-       
+
 
 
 
 
     }
 
-    .header-description{
+    .header-description {
 
         width: 50%;
     }
@@ -42,7 +42,7 @@
         color: #272727;
         font-size: 80px;
         font-weight: 800;
-        margin-bottom: 32px;    
+        margin-bottom: 32px;
     }
 
     .header-secondary-text {
@@ -52,18 +52,92 @@
         margin-bottom: 32px;
     }
 
-    .header-img{
+    .header-img {
         width: 40%;
         height: 800px;
-        background:url(/image/pngwing\ 6.png);
+        background: url(/image/pngwing\ 6.png);
         background-repeat: no-repeat;
         background-size: contain;
-        margin-top: 50px;   
-        
+        margin-top: 50px;
+
     }
 
-    
-    
+    /* ---------------------------flowers section styles----------------------------- */
+
+    .flowers {
+
+        margin: 0 240px
+    }
+
+    .flower-section-title {
+
+        color: #272727;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .flower-section-description {
+
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 48px;
+    }
+
+
+    .tree-container {
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 128px;
+
+    }
+
+    .tree-img-container {
+
+        width: 450px;
+        height: 538px;
+        border-radius: 300px 300px 0px 0px;
+        background-color: #E55473;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 32px;
+    }
+
+    .tree-img {
+
+        width: 310px;
+        height: 428px;
+    }
 
 
 
+    .tree-name {
+
+
+        color: #272727;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        text-decoration-line: underline;
+    }
+
+
+    /* ----------------------hot deal styles---------------------------------- */
+
+    .hot-deal {
+
+        display: flex;
+        align-items: center;
+    }
+
+    .hot-deal-title {
+
+        color: #272727;
+        font-size: 40px;
+        font-weight: 800;
+    }

@@ -133,6 +133,14 @@
 
         display: flex;
         align-items: center;
+        justify-content: center;
+    }
+
+    .hot-deal-details{
+
+        width: 35%;
+        text-align: center;
+        margin-right: 150px;
     }
 
     .hot-deal-title {
@@ -140,4 +148,14 @@
         color: #272727;
         font-size: 40px;
         font-weight: 800;
+        text-align: center;
     }
+
+    .hot-deal-description {
+
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+    }
+
+    

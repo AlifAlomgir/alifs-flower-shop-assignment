@@ -210,7 +210,7 @@
     .latest-deal {
 
 
-        background-image: url(/image/latest-deals.png);
+        background-image: url(../image/latest-deals.png);
         margin: 130px 240px;
         text-align: center;
         padding: 100px;
@@ -225,7 +225,7 @@
         margin-bottom: 16px;
     }
 
-    .latest-deal-cotation {
+    .latest-deal-quotation {
         color: rgba(39, 39, 39, 0.60);
         text-align: center;
         font-size: 18px;
@@ -244,7 +244,7 @@
     }
 
 
-    /* -------------------footer style----------------------------- */
+    /* -------------------footer style-------------------------------- */
 
     footer {
 

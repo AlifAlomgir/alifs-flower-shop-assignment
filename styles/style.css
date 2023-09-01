@@ -40,7 +40,7 @@
 
     .header-main-text {
         color: #272727;
-        font-size: 80px;
+        font-size: 75px;
         font-weight: 800;
         margin-bottom: 32px;
     }
@@ -134,9 +134,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background-color: rgba(229, 84, 115, 0.05);
+        padding: 100px 0;
     }
 
-    .hot-deal-details{
+    .hot-deal-details {
 
         width: 35%;
         text-align: center;
@@ -158,4 +160,117 @@
         font-size: 18px;
     }
 
-    
+
+
+
+
+
+    /* ----------------------instagram section style----------------------- */
+
+    .instagram {
+
+        margin: 130px 240px;
+    }
+
+    .instagram-title {
+
+        color: #272727;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+
+    .description {
+
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 48px;
+    }
+
+    .img-container {
+
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .instagram-img {
+
+        width: 337px;
+        height: 396px;
+    }
+
+
+    /* -------------------------latest deal section styles----------------------------- */
+
+
+    .latest-deal {
+
+
+        background-image: url(/image/Rectangle\ 9.png);
+        margin: 130px 240px;
+        text-align: center;
+        padding: 100px;
+        background-repeat: no-repeat;
+    }
+
+    .latest-deal-title {
+
+        color: #272727;
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+
+    .latest-deal-cotation {
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 48px;
+
+    }
+
+    .latest-deal input {
+
+        width: 700px;
+
+        border-radius: 8px;
+        background: #FFF;
+        border: 0;
+        padding: 23px;
+    }
+
+
+    /* -------------------footer style----------------------------- */
+
+    footer {
+
+        /* height: 449px; */
+        background: #111010;
+        text-align: center;
+        padding: 128px;
+    }
+
+    .footer-main-text {
+
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .footer-details {
+
+        color: rgba(255, 255, 255, 0.90);
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    .copy-right {
+
+        color: rgba(255, 255, 255, 0.40);
+        font-size: 16px;
+    }
